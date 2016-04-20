@@ -2,11 +2,13 @@
 
 This project came about as I started creating big lists of movies that I was encoding using Don Melton's fabulous scripts for video_transcoding.
 
-It replies on you having the batch file setup that Don describes in his release here. https://github.com/donmelton/video_transcoding#batch-control-for-transcode-video
+# PreReqs
+This batch relies on you having the batch file setup that Don describes in his video-transcode release, as described here. https://github.com/donmelton/video_transcoding#batch-control-for-transcode-video
 Once you have that set and follow that structure you can use this script to create the crop text files needed for that batch process to work.
 
 # Instalation
-Copy the 'det-crop.sh' into the work directory and make sure it's executable. e.g. # chmod 755 det-crop.sh
+- Copy the 'det-crop.sh' into the work directory you set up in the PreReqs
+- Make sure it's executable. e.g. # chmod 755 det-crop.sh
 
 # Usage
 - Take a copy of your 'queue.txt' (as described in Don's instructions) and call it 'dc-queue.txt' and keep it in the 'work' directory.
