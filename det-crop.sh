@@ -25,8 +25,20 @@ while [ "$input" ]; do
 
 # This version of detect-crop only displays the crop value e.g. 72:72:0:0 which is all we need in the file.
 # Since the original batch.sh had the code to find the cropfile.txt we just repurpose that for the output redirect. 
-	detect-crop --values-only --quiet "$input" > "$crop_file"
-
+	detect-crop --values-only --quiet "$input" > tempcrop.txt
+	crop_return="$(sed -n 1p tempcrop.txt)"
+	echo crop_return = "$crop_return"
+	
+	zero_crop="0:0:0:0"
+	
+	if [ $crop_return = $zero_crop ]; then
+		echo nothing to 'do' for "$crop_file"
+	else	
+		echo Writing to "$crop_file"
+		echo "$crop_return" > "$crop_file"
+	fi
+	
+    sed -i '' 1d tempcrop.txt
     input="$(sed -n 1p "$queue")"
 
 done
