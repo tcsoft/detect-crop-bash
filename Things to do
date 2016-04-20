@@ -1,0 +1,4 @@
+# Things to add to this
+
+1. Create a conditional loop that only outputs the file if the detect-crop does not match "0:0:0:0"
+2. Properly set up this GitHub project
