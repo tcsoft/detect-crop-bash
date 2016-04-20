@@ -1,24 +1,23 @@
 # detect-crop-bash
 
-This project came about as I started creating big lists of movies that I was encoding using Don Melton's fabulous scripts for video_transcoding.
-[video_transcoding](https://github.com/donmelton/video_transcoding)
+This project came about as I started creating big lists of movies that I was encoding using Don Melton's fabulous scripts for [video_transcoding](https://github.com/donmelton/video_transcoding).
 
 # PreReqs
 This batch relies on you having the batch file setup that Don describes in his video-transcode release, as described here. https://github.com/donmelton/video_transcoding#batch-control-for-transcode-video
 Once you have that set and follow that structure you can use this script to create the crop text files needed for that batch process to work.
 
 # Instalation
-- Copy the 'det-crop.sh' into the work directory you set up in the PreReqs
+- Copy the `det-crop.sh` into the work directory you set up in the PreReqs
 - Make sure it's executable. e.g. # chmod 755 det-crop.sh
 
 # Usage
-- Take a copy of your 'queue.txt' (as described in Don's instructions) and call it 'dc-queue.txt' and keep it in the 'work' directory.
+- Take a copy of your `queue.txt` (as described in Don's instructions) and call it `dc-queue.txt` and keep it in the 'work' directory.
 at your command prompt 
-- Run the # ./det-crop.sh and the crop.txt files get created in the 'work/Crops' directory.
-- Now you can run the 'batch.sh' without having to create the crops.txt by hand
+- Run the `# ./det-crop.sh` and the crop.txt files get created in the 'work/Crops' directory.
+- Now you can run the `batch.sh` without having to create the crops.txt by hand
 
 # Thanks
-Big thanks to Don Melton (@DonMelton) for the original scripts and hard work that has gone into creating this resource for us all.
-Also thanks to Joe Hurley (@Rhapsodians) for pointing this out and explaining it all to me.
+- Big thanks to Don Melton (@DonMelton) for the original scripts and hard work that has gone into creating this resource for us all.
+- Thanks to Joe Hurley (@Rhapsodians) for pointing this out and explaining it all to me.
 
 TimsterC ;o)
