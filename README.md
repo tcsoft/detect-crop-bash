@@ -3,7 +3,7 @@
 This project came about as I started creating big lists of movies that I was encoding using Don Melton's fabulous scripts for [video_transcoding](https://github.com/donmelton/video_transcoding).
 
 # PreReqs
-This batch relies on you having the batch file setup that Don describes in his video-transcode release, as described here. https://github.com/donmelton/video_transcoding#batch-control-for-transcode-video
+This batch relies on you having the batch file setup that Don describes in his video-transcode release, as described here. <https://github.com/donmelton/video_transcoding#batch-control-for-transcode-video>.
 Once you have that set and follow that structure you can use this script to create the crop text files needed for that batch process to work.
 
 # Instalation
