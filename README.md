@@ -8,7 +8,7 @@ Once you have that set and follow that structure you can use this script to crea
 
 # Instalation
 - Copy the `det-crop.sh` into the work directory you set up in the PreReqs
-- Make sure it's executable. e.g. # chmod 755 det-crop.sh
+- Make sure it's executable. e.g. `# chmod 755 det-crop.sh`
 
 # Usage
 - Take a copy of your `queue.txt` (as described in Don's instructions) and call it `dc-queue.txt` and keep it in the 'work' directory.
