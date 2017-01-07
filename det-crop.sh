@@ -31,7 +31,7 @@ while [ "$input" ]; do
 	
 	zero_crop="0:0:0:0"
 	
-	if [ $crop_return = $zero_crop ]; then
+	if [[ $crop_return = $zero_crop ]]; then
 		echo nothing to 'do' for "$crop_file"
 	else	
 		echo Writing to "$crop_file"
