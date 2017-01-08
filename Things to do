@@ -3,7 +3,7 @@
 Done
 1. Create a conditional loop that only outputs the file if the detect-crop does not match "0:0:0:0"
 2. Properly set up this GitHub project
+3. Create some code that recognises differences between the HandBrakeCLI and mplayer $crop-return values.
 
 ToDo
-3. Create some code that recognises differences between the HandBrakeCLI and mplayer $crop-return values.
 4. Give the user a choice of which return to accept and write that out to the crop file.
