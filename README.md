@@ -14,7 +14,7 @@ Once you have that set and follow that structure you can use this script to crea
 # Usage
 - run `./setup.sh` to create the dc-queue.txt and the queue.txt files.
 - Run the `# ./det-crop.sh` and the crop.txt files get created in the 'work/Crops' directory.
-- If detect-crop spots any differences in the results from HandBrakeCLI and mplayer then the whole result is written to `Crops/>moviename>.txt` file so that you can decide which value you like best.
+- If detect-crop spots any differences in the results from HandBrakeCLI and mplayer then the whole result is written to `work/Crops/<moviename>.txt` file so that you can decide which value you like best.
 - Edit that file and leave only the crop value you want to use with the video_transcode in the next step 
 - Now you can run the `./batch.sh` without having to create the crops.txt by hand
 
